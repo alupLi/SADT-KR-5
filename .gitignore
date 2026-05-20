@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.log
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+.dockerignore
+*.pid
+docker-compose.override.yml
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# Logs
+*.log
+logs/
+.logs/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Project specific
+*.db
+*.sqlite
+local_settings.py
+.python-version
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
